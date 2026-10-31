@@ -1,0 +1,8 @@
+class Student:
+    college = "ABC College"
+
+    @classmethod
+    def display(cls):
+        print(cls.college)
+
+Student.display()
