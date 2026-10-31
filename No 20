@@ -1,0 +1,10 @@
+class Shape:
+    def area(self):
+        print("Area of Shape")
+
+class Circle(Shape):
+    def area(self):
+        print("Area of Circle:", 3.14 * 5 * 5)
+
+obj = Circle()
+obj.area()
