@@ -1,0 +1,14 @@
+class Father:
+    def father(self):
+        print("Father Class")
+
+class Mother:
+    def mother(self):
+        print("Mother Class")
+
+class Child(Father, Mother):
+    pass
+
+obj = Child()
+obj.father()
+obj.mother()
