@@ -1,0 +1,13 @@
+class Bird:
+    def fly(self):
+        print("Bird is flying")
+
+class Airplane:
+    def fly(self):
+        print("Airplane is flying")
+
+def start(obj):
+    obj.fly()
+
+start(Bird())
+start(Airplane())
