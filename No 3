@@ -1,0 +1,10 @@
+class Rectangle:
+    def __init__(self, length, breadth):
+        self.l = length
+        self.b = breadth
+
+    def area(self):
+        print("Area:", self.l * self.b)
+
+r = Rectangle(10, 5)
+r.area()
