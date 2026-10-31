@@ -1,0 +1,13 @@
+class Employee:
+    def __init__(self, name, basic):
+        self.name = name
+        self.basic = basic
+
+    def salary(self):
+        hra = self.basic * 0.2
+        da = self.basic * 0.1
+        total = self.basic + hra + da
+        print("Total Salary:", total)
+
+e = Employee("Pavan", 20000)
+e.salary()
