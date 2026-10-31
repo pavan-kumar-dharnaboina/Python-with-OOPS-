@@ -1,0 +1,15 @@
+class Parent:
+    def show(self):
+        print("Parent Class")
+
+class Child1(Parent):
+    pass
+
+class Child2(Parent):
+    pass
+
+a = Child1()
+b = Child2()
+
+a.show()
+b.show()
