@@ -1,0 +1,6 @@
+class Calculator:
+    @staticmethod
+    def add(a, b):
+        print("Addition:", a + b)
+
+Calculator.add(10, 20)
